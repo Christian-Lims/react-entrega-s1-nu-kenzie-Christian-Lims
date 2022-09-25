@@ -1,0 +1,101 @@
+.divMainHome {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.sectionHome {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.sectionHome h1 {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.sectionHome p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.sectionHome button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 200px;
+  height: 48px;
+  background: #fd377e;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sectionHome button:hover {
+  border-color: #ffffff;
+  background-color: rgb(255, 60, 174);
+}
+
+.sectionHome img {
+  width: 122.68px;
+  height: 19.53px;
+}
+
+.ilustration {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.ilustration img {
+  height: 500px;
+}
+
+@media (max-width: 1024px) {
+  .ilustration {
+    width: 40%;
+  }
+
+  .ilustration img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divMainHome {
+    width: 90vw;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .ilustration {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .ilustration img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sectionHome {
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+}

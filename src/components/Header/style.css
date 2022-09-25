@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 122.68px;
+  height: 19.53px;
+}
+
+.header button {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  color: #343a40;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+.header button:hover {
+  background-color: #fd377e;
+  color: #ffffff;
+}

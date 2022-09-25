@@ -1,0 +1,71 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.mainHome {
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainDash {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainDash header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem;
+  width: 100vw;
+}
+
+button {
+  cursor: pointer;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 80%;
+}
+
+.menuApp {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.divMenu {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+.sectionList {
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+}

@@ -1,0 +1,63 @@
+.sectionMainDash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.sectionMainDash h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.noCard {
+  width: 100%;
+}
+
+.menuList button {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  color: #343a40;
+  background: #e9ecef;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+.menuList button:hover {
+  background-color: #fd377e;
+  color: #ffffff;
+}
+
+.menuList button:focus {
+  background-color: #fd377e;
+  color: #ffffff;
+  border-color: #343a40;
+}
+
+.divButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.sectionMainDash ul {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}

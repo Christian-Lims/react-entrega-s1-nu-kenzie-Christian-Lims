@@ -1,0 +1,68 @@
+.liDefault {
+  height: 80px;
+}
+
+.liDefault span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #343a40;
+}
+
+.liDefault p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+
+.liDefault button {
+  border: none;
+  width: 22px;
+  height: 22px;
+}
+
+.liDefault button:hover {
+  background-color: #ffffff;
+}
+
+.entrance {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+  border-radius: 4px;
+  justify-content: space-between;
+  border-left: solid 4px #03b898;
+}
+
+.output {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+  border-radius: 4px;
+  justify-content: space-between;
+  border-left: solid 4px #e9ecef;
+}
+
+.divLi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.divLi div {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
