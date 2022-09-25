@@ -61,3 +61,18 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 800px) {
+  .menuList button {
+    padding: 0.2rem;
+  }
+
+  .menuList {
+    flex-direction: column;
+  }
+
+  .sectionMainDash ul {
+    width: 90%;
+    align-items: flex-start;
+  }
+}
