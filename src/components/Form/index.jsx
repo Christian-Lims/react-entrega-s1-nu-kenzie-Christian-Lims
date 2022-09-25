@@ -8,13 +8,24 @@ function Form({ listTransactions, setListTransactions }) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    let newValue = 0;
+    let valueAjusted = parseInt(values);
+
+    if (
+      (category === "opEntrance" && valueAjusted < 0) ||
+      (category === "opOutput" && valueAjusted > 0)
+    ) {
+      newValue = valueAjusted * -1;
+    } else {
+      newValue = valueAjusted;
+    }
 
     setListTransactions([
       ...listTransactions,
       {
         description: descrip,
         type: category,
-        value: values,
+        value: newValue,
       },
     ]);
   }
