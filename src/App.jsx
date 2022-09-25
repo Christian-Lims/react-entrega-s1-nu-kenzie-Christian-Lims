@@ -7,12 +7,9 @@ import List from "./components/List";
 import TotalMoney from "./components/TotalMoney";
 
 function App() {
-  const [listTransactions, setListTransactions] = useState([
-    { description: "Salário recebido", type: "entrada", value: 2500 },
-    { description: "Conta de luz", type: "saída", value: -150 },
-  ]);
+  const [listTransactions, setListTransactions] = useState([]);
 
-  const [accessed, setAccessed] = useState(true);
+  const [accessed, setAccessed] = useState(false);
 
   function logout() {
     setAccessed(false);
