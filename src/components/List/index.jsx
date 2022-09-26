@@ -51,8 +51,7 @@ function List({ listTransactions, setListTransactions }) {
                 removeTransaction={removeTransaction}
               />
             ))}
-
-          {listFiltered.length &&
+          {!!listFiltered.length &&
             listFiltered.map((transaction, index) => (
               <Card
                 transaction={transaction}

@@ -38,6 +38,7 @@ function Form({ listTransactions, setListTransactions }) {
         type="text"
         placeholder="Digite aqui sua descrição"
         onChange={(event) => setDescrip(event.target.value)}
+        required
       />
       <span>Ex: Compra de roupas</span>
       <div className="divForm">
@@ -48,6 +49,7 @@ function Form({ listTransactions, setListTransactions }) {
             type="number"
             placeholder="1"
             onChange={(event) => setValues(event.target.value)}
+            required
           />
         </div>
         <div className="divInp">
