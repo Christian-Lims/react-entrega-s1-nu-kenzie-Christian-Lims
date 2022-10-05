@@ -9,7 +9,7 @@ function Card({ transaction, removeTransaction }) {
           <div className="divLi">
             <h1>{transaction.description}</h1>
             <div>
-              <p>{transaction.value}</p>
+              <p>{`R$ ${transaction.value.toFixed(2)}`}</p>
               <button onClick={() => removeTransaction(transaction)}>
                 <img src={Image} alt="delete" />
               </button>
@@ -22,7 +22,7 @@ function Card({ transaction, removeTransaction }) {
           <div className="divLi">
             <h1>{transaction.description}</h1>
             <div>
-              <p>{transaction.value}</p>
+              <p>{`R$ ${transaction.value.toFixed(2)}`}</p>
               <button onClick={() => removeTransaction(transaction)}>
                 <img src={Image} alt="delete" />
               </button>
